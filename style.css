@@ -53,6 +53,9 @@ font-weight: 400;
     font-size: 15px;
     font-weight: 400;
 }
+.hide{
+    display: none;
+}
 
 
 /* responsive */
@@ -62,5 +65,12 @@ font-weight: 400;
     }
     .logo h3{
         display: none;
+    }
+    .scl button{
+        display: none;
+    }
+    .hide{
+        display: flex;
+        
     }
  }
